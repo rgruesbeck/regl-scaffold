@@ -1,0 +1,26 @@
+{
+    "settings": {
+      "name": "Regl",
+      "fontFamily": "Bungee Inline"
+    },
+    "@@editor": [
+      {
+        "key": "settings",
+        "name": "Game settings",
+        "icon": "🎮",
+        "source": "settings.json",
+        "fields": [
+          {
+            "key": "name",
+            "name": "App name",
+            "type": "text"
+          },
+          {
+            "key": "fontFamily",
+            "name": "Font to use for text in the game",
+            "type": "font"
+          }
+        ]
+      }
+    ]
+  }
